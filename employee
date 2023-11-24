@@ -1,0 +1,7 @@
+CREATE TABLE `employee` (
+  `idEmployee` int NOT NULL,
+  `EmpName` varchar(60) NOT NULL,
+  `EmpAge` int NOT NULL,
+  `EmpDept` varchar(45) NOT NULL,
+  PRIMARY KEY (`idEmployee`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
